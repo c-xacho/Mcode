@@ -1,0 +1,13 @@
+﻿  main.cpp
+B:\Code\Project_3M\project.h(5,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  (编译源文件“main.cpp”)
+  
+B:\Code\Project_3M\project.h(6,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  (编译源文件“main.cpp”)
+  
+B:\Code\Project_3M\project.h(7,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  (编译源文件“main.cpp”)
+  
+B:\Code\Project_3M\main.cpp(37,21): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+B:\Code\Project_3M\main.cpp(85,28): warning C4002: 类函数宏的调用“_T”参数过多
+  Project_3M.vcxproj -> B:\Code\Project_3M\x64\Debug\Project_3M.exe
