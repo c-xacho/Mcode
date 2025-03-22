@@ -33,6 +33,31 @@ private:
 	IMAGE& img;
 	int x;
 };
+class Gift {
+public:
+	Gift(IMAGE& img, int x) :img(img) {
+		rect.left = x;
+		rect.right = rect.left + img.getwidth();
+		rect.top = -img.getheight();
+		rect.bottom = 0;
+	}
+	bool Show() {
+		if (rect.top >= height) {
+			return false;
+		}
+		rect.top += 4;
+		rect.bottom += 4;
+		drawImg(rect.left, rect.top, &img);
+		return true;
+	}
+	RECT& getRECT() {
+		return rect;
+	}
+private:
+	RECT rect;
+	IMAGE& img;
+	int x;
+};
 class Bullet {
 public:
 	Bullet(IMAGE& img, RECT r1) : img(img){
